@@ -10,7 +10,7 @@ pipeline {
           sh "${SCANNER_HOME}/bin/sonar-scanner \
             -D sonar.projectKey=sim_javaPipeline \
             -D sonar.projectName=pipeline \
-            -D sonar.java.binaries=target"
+            
         }
       }
     }
